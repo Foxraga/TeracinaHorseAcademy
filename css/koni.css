@@ -1,0 +1,82 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LatRasa{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.opis{
+    justify-content: center;
+    width: 1190px;
+    height: 180px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+}
+
+.overlay-box{
+    width: 1200px;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: #c6a26d;
+    color: white;
+    font-size: 30px;
+    padding: 20px 48px;
+    border: 3px solid #c6a26d;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #c6a26d;
+}

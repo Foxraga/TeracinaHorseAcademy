@@ -1,0 +1,178 @@
+body{
+    background-color: #f8f5f2;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #c6a26d;
+    margin-bottom: 15px;
+    font-size: 55px;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2, h3{
+    color: #c6a26d;
+    margin-bottom: 15px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.baner{
+    background-color: #8bcf8738;
+}
+
+.baner-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_teracina{
+    width: 250px;
+    height: 75px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-baner{
+    width: 21%;
+    height: 110px;
+}
+
+.icons{
+    filter: invert(53%) sepia(79%) saturate(349%) hue-rotate(10deg) brightness(105%);
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 25px;
+    transition: transform 0.2s ease;
+}
+
+.icons:hover {
+    transform: scale(0.85);
+}
+
+.hero{
+    background-image: url(../images/PastwiskoZKonmiBrightness.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.horses-web{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+
+.horses-container{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.left_txt{
+    width: 40%;
+    text-align: left;
+    margin: 0 100px 0;
+}
+
+.slider {
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 107%;
+    background-color: rgba(134, 134, 134, 0.548);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+    width: 700px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+.gallery h4{
+    color: #c6a26d;
+    margin-bottom: 7px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.column{
+    width: calc(33.33% - 20px);
+    height: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column img{
+    width: 270px;
+    height: 180px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.column img:hover {
+    transform: scale(1.05);
+}
+
+.info-baner{
+    padding-top: 10px;
+    margin-bottom: 70px;
+}
+
+.kontakt{
+    background-color: #e9e5da8a;
+    padding-bottom: 50px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px 0;
+}
+
+.info{
+    font-size: 25px;
+}
